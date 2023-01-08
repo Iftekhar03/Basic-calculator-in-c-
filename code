@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int num1,num2;
+  char operation;
+  cout << "enter your number 1 : ";
+  cin >> num1;
+  cout << "enter your number 2 : ";
+  cin >> num2;
+  cout <<"What you want to calculate? +,-,*,/ => select one :";
+  cin >> operation;
+  if(operation=='+')
+  {
+    cout<<num1+num2;
+  }
+  else if(operation=='-')
+  {
+    cout<<num1-num2;
+  }
+  else if(operation=='*')
+  {
+    cout<<num1*num2;
+  }
+  else if(operation=='/')
+  {
+    cout<<num1/num2;
+  }
+  return 0;
+}
